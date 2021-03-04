@@ -1,18 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/image/favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/sobre.css">
-    <link rel="stylesheet" href="/not-found.css">
-    <title>Sobre Rocketseat</title>
-</head>
-<body>
-    {% block body %} {% endblock %}
-    {% block error %} {% endblock %}
-</body>
+<html>
+    <head>
+        {% block head %}
+            <title>Gym Manager</title>
+        {% endblock %}
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="links">
+                <a href="/">Instructors</a>
+                <a href="/members">Members</a>
+            </div>
+        </header>
+
+        {% block content %}{% endblock %}
+
+    </body>
 </html>
