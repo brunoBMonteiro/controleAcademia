@@ -1,0 +1,55 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+    <form class="card" method="POST" action="/instructors">
+        <section class="avatar" style="background: url(https://source.unsplash.com/collection/3465564/500x500) no-repeat center center / cover"></section>
+        <section class="details">
+            <h3>Novo Instrutor</h3>
+
+            <div class="item">
+                <div>Avatar URL</div>
+                <div>
+                    <input type="url" name="avatar_url">
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Instrutor</div>
+                <div>
+                    <input type="text" name="">
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Data de nascimento</div>
+                <div>
+                    <input type="date" name="birth">
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Sexo</div>
+                <div>
+                    <span><input type="radio" name="gender" value="M" checked="checked">
+                        Masculino</span>
+                    <span><input type="radio" name="gender" value="F">
+                        Feminino</span>
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Acompanhamento</div>
+                <div>
+                    <span>Musculação</span>
+                    <span>Crossfit</span>
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Desde</div>
+                <div>01/01/2019</div>
+            </div>
+
+        </section>
+    </form>
+{% endblock content %}
