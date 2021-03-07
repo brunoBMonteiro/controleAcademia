@@ -13,7 +13,7 @@ routes.get('/instructors/create', function (req, res) {
     return res.render('instructors/create')
 })
 
-routes.post('/instructors', function (req, res) {
+routes.post("/instructors", function (req, res) {
     return res.send("recebido")
 })
 
