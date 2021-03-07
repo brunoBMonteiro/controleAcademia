@@ -5,6 +5,8 @@ const routes = require('./routes')
 
 const server = express()
 
+// linha responsavel pelo funcionamento do body
+server.use(express.urlencoded({ extended: true }))
 // arrumando a pasta public
 server.use(express.static('public'))
 // criando rotas 
