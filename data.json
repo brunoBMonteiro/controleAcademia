@@ -1,0 +1,31 @@
+{
+  "instructors": [
+    {
+      "id": 1,
+      "avatar_url": "http://google.com",
+      "name": "Bruno",
+      "birth": 835747200000,
+      "gender": "M",
+      "services": "musculação, luta",
+      "created_at": 1615215246240
+    },
+    {
+      "id": 2,
+      "avatar_url": "http://google.com",
+      "name": "Silvia",
+      "birth": 78364800000,
+      "gender": "F",
+      "services": "musculação, luta",
+      "created_at": 1615215288353
+    },
+    {
+      "id": 3,
+      "avatar_url": "http://google.com",
+      "name": "João",
+      "birth": -24472972800000,
+      "gender": "M",
+      "services": "musculação, luta",
+      "created_at": 1615215338560
+    }
+  ]
+}
