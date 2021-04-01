@@ -44,6 +44,15 @@
       "gender": "M",
       "services": "cozinheiro, pintor",
       "name": "Neemias"
+    },
+    {
+      "avatar_url": "http://google.com",
+      "birth": 946166400000,
+      "created_at": 1617223725623,
+      "id": 6,
+      "gender": "M",
+      "services": "musculação, luta",
+      "name": "João"
     }
   ]
 }
