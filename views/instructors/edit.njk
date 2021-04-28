@@ -10,6 +10,11 @@
 
             {% include 'instructors/fields.njk' %}
 
+            <input 
+                type="Hidden" 
+                name="id" 
+                value={{ instructor.id }}>
+
         </section>
     </form>
 {% endblock content %}
