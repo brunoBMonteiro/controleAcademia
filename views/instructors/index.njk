@@ -10,26 +10,12 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Mayk</td>
-                    <td>Natação</td>
-                </tr>
-
-                <tr>
-                    <td>Mayk</td>
-                    <td>Natação</td>
-                </tr>
-
-                <tr>
-                    <td>Mayk</td>
-                    <td>Natação</td>
-                </tr>
-
-                <tr>
-                    <td>Mayk</td>
-                    <td>Natação</td>
-                </tr>
-
+                {% for instructor in instructors %}
+                    <tr>
+                        <td>{{instructor.name}}</td>
+                        <td>{{instructor.services}}</td>
+                    </tr>
+                {% endfor %}    
             </tbody>
         </table>
     </div>
