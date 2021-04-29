@@ -2,7 +2,7 @@
   "instructors": [
     {
       "id": 1,
-      "avatar_url": "http://google.com",
+      "avatar_url": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGd5bXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "name": "Bruno",
       "birth": 835747200000,
       "gender": "M",
@@ -11,57 +11,12 @@
     },
     {
       "id": 2,
-      "avatar_url": "http://google.com",
+      "avatar_url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGd5bXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "name": "Silvia",
       "birth": 78364800000,
       "gender": "F",
       "services": "musculação, luta, natação",
       "created_at": 1615215288353
-    },
-    {
-      "id": 3,
-      "avatar_url": "http://google.com",
-      "name": "João",
-      "birth": -24472972800000,
-      "gender": "M",
-      "services": "musculação, luta",
-      "created_at": 1615215338560
-    },
-    {
-      "avatar_url": "http://google.com",
-      "birth": 835747200000,
-      "created_at": 1617138033643,
-      "id": 4,
-      "gender": "M",
-      "services": "musculação, luta, segurança",
-      "name": "Airton pereira"
-    },
-    {
-      "avatar_url": "https://source.unsplash.com/collection/3465564/500x500",
-      "birth": 804124800000,
-      "created_at": 1617138308560,
-      "id": 5,
-      "gender": "M",
-      "services": "cozinheiro, pintor",
-      "name": "Neemias"
-    },
-    {
-      "avatar_url": "http://google.com",
-      "birth": 946166400000,
-      "created_at": 1617223725623,
-      "id": 6,
-      "gender": "M",
-      "services": "musculação, luta",
-      "name": "João"
-    },
-    {
-      "avatar_url": "http://google.com",
-      "birth": 946166400000,
-      "created_at": 1617314983219,
-      "id": 7,
-      "gender": "M",
-      "services": "musculação, luta",
-      "name": "João"
     }
   ]
 }
