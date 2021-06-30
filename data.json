@@ -1,15 +1,6 @@
-{ 
+{
   "members": [],
   "instructors": [
-    {
-      "id": 1,
-      "avatar_url": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGd5bXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "name": "Bruno",
-      "birth": 835747200000,
-      "gender": "M",
-      "services": "musculação, luta",
-      "created_at": 1615215246240
-    },
     {
       "id": 2,
       "avatar_url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGd5bXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
@@ -18,6 +9,15 @@
       "gender": "F",
       "services": "musculação, luta, natação",
       "created_at": 1615215288353
+    },
+    {
+      "avatar_url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGd5bXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "birth": 1012521600000,
+      "created_at": 1625075040885,
+      "id": 2,
+      "gender": "M",
+      "services": "musculação, luta",
+      "name": "Nicolas"
     }
   ]
 }
