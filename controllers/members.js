@@ -43,11 +43,11 @@ exports.post = function (req, res) {
 
     birth = Date.parse(req.body.birth)
 
-    let id = 1;
-    const lastId = data.members[data.members.length - 1].id
+    let id = 1
+    const lastMember = data.members[data.members.length - 1]
 
-    if(lastId) {
-        id = lastId + 1
+    if(lastMember) {
+        id = lastMember.id + 1
     }
 
     data.members.push({
